@@ -54,10 +54,15 @@ Identificar las habilidades y competencias más demandadas en el mercado laboral
 El proyecto se enfocará en el mercado laboral de IT, con énfasis en las regiones con mayor actividad en el sector tecnológico como lo son Estados Unidos y Canadá, y se limitará a datos de este año (2024) para garantizar la relevancia y actualidad de los resultados.
 
 #### Objetivos específicos
-1. 
+1. **Recopilación y Limpieza de Datos**: Recopilar y consolidar datos de diversas uentes de empleo relevantes en el sector IT dentro de Estados Unidos y Canadá para el año 2024.
+2. Realizar un proceso de limpieza de datos que garantice la eliminación de duplicados, datos incompletos o inconsistentes, asegurando la calidad y precisión de la información a analizar.
+3. **Análisis de Habilidades y Competencias**: Identificar y categorizar las habilidades y competencias más mencionadas en las ofertas de empleo de IT, diferenciando entre habilidades técnicas (hard skills) y habilidades interpersonales (soft skills) y realizar un análisis comparativo entre las regiones (EE.UU. y Canadá) para identificar variaciones regionales en la demanda de habilidades.
+4. **Desarrollo del Modelo Predictivo**: Diseñar y entrenar un modelo predictivo utilizando técnicas de machine learning para anticipar habilidades emergentes en el sector IT, basándose en patrones históricos y tendencias actuales. Validar el modelo predictivo con un conjunto de datos independiente para asegurar su precisión y confiabilidad.
+5. **Generación de Reportes y Visualizaciones**: Desarrollar reportes detallados y visualizaciones interactivas que presenten las habilidades y competencias más demandadas, así como las predicciones sobre tendencias futuras en el mercado laboral de IT y asegurar que los reportes sean accesibles y comprensibles tanto para profesionales de IT como para responsables de contratación y planificación en empresas del sector.
+
 
 ### Requerimientos del proyecto
-Esta sección detalla los criterios y estándares que deben cumplirse durante el desarrollo del proyecto. Los requerimientos del proyecto incluyen:
+Esta sección detalla los criterios y estándares que deben cumplirse durante el desarrollo del proyecto, los cuales incluyen:
 1. Proyecto entregado en un repositorio de GitHub.
 2. Planificación detallada de las fases de desarrollo.
 3. Cumplimiento de estándares de calidad.
@@ -75,14 +80,13 @@ El análisis y diseño del proyecto constituyen la base sobre la cual se constru
 
 1. **Análisis del proyecto y Brainstorming:** Reuniones para comprender en detalle los requisitos del proyecto y generar ideas sobre cómo abordarlos.
 2. **Asignación de roles y responsabilidades:** Distribuir las tareas entre los miembros del equipo según sus habilidades y fortalezas para asegurar una ejecución efectiva del proyecto.
-3. **Creación de repositorio y entornos de trabajo**:
-5. **Diseño de logo y paletas de colores**:
-6. **Definición del ciclo de vida de desarrollo:** Establecer un ciclo de vida de desarrollo claro y definido para estructurar el trabajo en fases manejables.
-8. **Creación de la documentación del proyecto:** Elaborar documentos detallados que describan el plan del proyecto, incluyendo objetivos, hitos y cronograma.
+3. **Creación de repositorio y entornos de trabajo**
+5. **Diseño de logo y paletas de colores**
+6. **Creación de la documentación del proyecto:** Elaborar documentos detallados que describan el plan del proyecto, incluyendo objetivos, hitos y cronograma.
 
 #### Desarrollo
 
-El desarrollo del proyecto se lleva a cabo en iteraciones, siguiendo las prácticas de Scrum, para asegurar una entrega constante y la posibilidad de hacer ajustes rápidos.
+El desarrollo del proyecto se lleva a cabo en iteraciones, para asegurar una entrega constante y la posibilidad de hacer ajustes rápidos.
 
 1. Investigación y recopilación de Datos: 
 2. Limpieza y Preparación de los Datos:
@@ -92,7 +96,7 @@ El desarrollo del proyecto se lleva a cabo en iteraciones, siguiendo las prácti
 
 #### Implementación
 
-El desarrollo de los requerimientos se realizará utilizando Python, Pandas, NumPy, Matplotlib, Seaborn y Power BI. Estas tecnologías permitirán la creación de una solución completa y eficiente para el análisis y visualización de datos.
+El desarrollo de los requerimientos se realizará utilizando Python, Pandas, NumPy, Matplotlib, Seaborn, diversas librerias de Machine Learning y la plataforma de visualizacion Power BI. Estas tecnologías permitirán la creación de una solución completa y eficiente para el análisis y visualización de datos.
 
 #### Pruebas y Validación
 Las pruebas y la validación son etapas críticas para garantizar que el sistema desarrollado cumple con los requisitos y funciona correctamente. Este proceso incluye pruebas unitarias, de integración y de aceptación, asegurando que cada componente del sistema se desempeñe de manera óptima tanto individualmente como en conjunto. 
@@ -101,17 +105,16 @@ Las pruebas y la validación son etapas críticas para garantizar que el sistema
 
 | Hito                                    | Fecha               |
 |-----------------------------------------|---------------------|
-| Inicio del Hackathon (*Kick-off*)       | 01/07/2024          |
-| Presentación de los miembros del equipo | 01/07/2024          |
-| Asignación de roles y responsabilidades | 01/07/2024          |
-| Análisis del proyecto y Brainstorming   | 01/07/2024          |
-| Definición del ciclo de vida de desarrollo | 02/07/2024      |
-| Creación de la documentación del proyecto | 02/07/2024       |
-| Aprobación de avances (30% requerimientos cubiertos) | 02/07/2024 |
-| Aprobación de avances (60% requerimientos cubiertos) | 03/07/2024 |
-| Aprobación de avances (90% requerimientos cubiertos) | 04/07/2024 |
-| Aprobación de avances (100% requerimientos cubiertos) | 05/07/2024 |
-| Finalización del Hackathon (DemoDay) | 05/07/2024 16:30 hr (MX) |
+| Inicio        |           |
+| Presentación de los miembros del equipo |           |
+| Asignación de roles y responsabilidades |           |
+| Análisis del proyecto y Brainstorming   |         |
+| Creación de la documentación del proyecto |       |
+| Aprobación de avances (30% requerimientos cubiertos) |  |
+| Aprobación de avances (60% requerimientos cubiertos) |  |
+| Aprobación de avances (90% requerimientos cubiertos) |  |
+| Aprobación de avances (100% requerimientos cubiertos) |  |
+| Finalización de la simulación (DemoDay) |  hr (ARG) |
 
 #### Talento humano
 
@@ -128,13 +131,13 @@ Las pruebas y la validación son etapas críticas para garantizar que el sistema
 
 ### Desarrollo del proyecto
 
-El desarrollo del proyecto se llevó a cabo utilizando una combinación de técnicas avanzadas de análisis de datos y desarrollo web, implementando metodologías ágiles y asegurando una entrega eficiente y de alta calidad.
+El desarrollo del proyecto se llevó a cabo utilizando una combinación de técnicas avanzadas de análisis de datos y Machine Learning, implementando metodologías ágiles y asegurando una entrega eficiente y de alta calidad.
 
 1. **Preprocesamiento de datos:** Limpiar y transformar los datos para su análisis.
 2. **Análisis exploratorio:** Realizar un análisis exhaustivo para identificar patrones y tendencias en los datos.
 3. **Desarrollo de modelos:** Crear y entrenar modelos predictivos y de segmentación.
 4. **Visualización de datos:** Crear visualizaciones interactivas que faciliten la comprensión de los resultados.
-5. **Desarrollo de la aplicación web:** Implementar la interfaz de usuario y las funcionalidades necesarias para interactuar con los datos.
+5. **Desarrollo de la aplicación:** ????? I
 
 #### Tecnologías Utilizadas
 - Python: Lenguaje de programación principal para el análisis y procesamiento de datos.
@@ -142,9 +145,6 @@ El desarrollo del proyecto se llevó a cabo utilizando una combinación de técn
 - NumPy: Biblioteca para cálculos numéricos eficientes.
 - Matplotlib: Biblioteca para la creación de gráficos y visualizaciones.
 - Seaborn: Biblioteca para visualización de datos estadísticos.
-- React: Biblioteca de JavaScript para la construcción de interfaces de usuario.
-- Node.js: Entorno de ejecución para JavaScript del lado del servidor.
-- Render: Plataforma para el despliegue de la aplicación web.
 
 ### Seguimiento y control
 
@@ -163,10 +163,6 @@ Finalización de todas las actividades, grupos de proceso de gestión y formaliz
 
 #### Implementación y Despliegue
 Despliegue del sistema en un entorno de producción.
-
-1. **Implementación en un servidor:** Desplegar la aplicación web en una plataforma de alojamiento.
-2. **Configuración de entorno:** Asegurar que todas las dependencias y configuraciones necesarias estén correctamente establecidas.
-3. **Monitoreo y mantenimiento:** Supervisar el rendimiento del sistema y realizar ajustes según sea necesario.
 
 ---
 
