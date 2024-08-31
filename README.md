@@ -1,16 +1,13 @@
 **Match IT - Analizando el Futuro de IT**
 
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <p align="center">
-  <img src="/static/img/logo-team67.png" alt="Logo Team 67" style="width:150px; border-radius: 25px;">
+  <img src="Logo.png" alt="Logo Martch It" style="width:350px; border-radius: 25px;">
 </p>
 
 <h1 align="center">Constitución del proyecto</h1>
-<h3 align="center">Datahunters IT***logo aqui***</h3>
+<h3 align="center">Datahunters IT</h3>
 <p align="center"> Septiembre 2024</p>
 
 ---
