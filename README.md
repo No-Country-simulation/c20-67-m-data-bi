@@ -36,8 +36,8 @@
 |-----------------------|--------------------------------|
 | **Organización / Equipo** | Datahunters IT                |
 | **Proyecto**          | Match IT - Analizando el Futuro de IT |
-| **Fecha de inicio**   | 15/08/2024                     |
-| **Fecha de cierre**   |                       |
+| **Fecha de inicio**   | 21/08/2024                     |
+| **Fecha de cierre**   | 18/09/2024                      |
 | **Cliente**           | NoCountry                       |
 | **Líder de Proyecto** | Ezequiel Garcia |
 | **Proyect Manager**   | Daineth Dominguez |
@@ -105,28 +105,26 @@ Las pruebas y la validación son etapas críticas para garantizar que el sistema
 
 | Hito                                    | Fecha               |
 |-----------------------------------------|---------------------|
-| Inicio        |           |
-| Presentación de los miembros del equipo |           |
-| Asignación de roles y responsabilidades |           |
-| Análisis del proyecto y Brainstorming   |         |
-| Creación de la documentación del proyecto |       |
-| Aprobación de avances (30% requerimientos cubiertos) |  |
-| Aprobación de avances (60% requerimientos cubiertos) |  |
-| Aprobación de avances (90% requerimientos cubiertos) |  |
-| Aprobación de avances (100% requerimientos cubiertos) |  |
+| Inicio        |    21/08/2024       |
+| Presentación de los miembros del equipo |    22/08/2024       |
+| Asignación de roles y responsabilidades |      26/08/2024     |
+| Análisis del proyecto y Brainstorming   |      28/08/2024   |
+| Creación de la documentación del proyecto |    30/08/2024   |
+| Aprobación de avances (30% requerimientos cubiertos) | 05/09/2024 |
+| Aprobación de avances (60% requerimientos cubiertos) | 09/09/2024 |
+| Aprobación de avances (90% requerimientos cubiertos) | 16/09/2024 |
+| Aprobación de avances (100% requerimientos cubiertos) | 23/09/2024 |
 | Finalización de la simulación (DemoDay) |  hr (ARG) |
 
 #### Talento humano
 
-| Nombre                         | Roles                             | Tareas                         | Departamento/División          |
-|--------------------------------|-----------------------------------|-------------------------------|-------------------------------|
-|   |  |  |
-|  |                   |                               |         |
-|  |                     |                               |         |
-|  |  |                  |      |
-| Karina Ordoñez Gonzalez        | Data science                      |                               |       |
-|          |                      |                               |           |
-
+| Nombre                         | Roles                             | Tareas                         | 
+|--------------------------------|-----------------------------------|-------------------------------|
+| Daineth Dominguez  | Project Manager / Data Scientist |  |
+| Gabriela Lopez | Data Analist                  |                               |       
+| Samantha Estudillo | Data Analist                     |                               |        
+| Miguel Correa  | Data Analist  |                  |     
+| Karina Gonzalez        | Data Scientist                      |                                 
 ---
 
 ### Desarrollo del proyecto

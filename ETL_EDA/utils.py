@@ -262,14 +262,26 @@ def clean_skills(text, custom_keywords=None):
             if phrase in keywords:
                 extracted_skills.add(phrase)
 
+<<<<<<< HEAD
     return extracted_skills
+=======
+    # Unir las palabras clave encontradas en un string limpio
+    return ', '.join(extracted_skills)
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
 
 def clean_column_names(df):
     """
     Limpia los nombres de las columnas del DataFrame, convirtiéndolos a minúsculas y
     reemplazando los espacios con guiones bajos para darles formato snake_case.
+<<<<<<< HEAD
     Args:
     df (pd.DataFrame): El DataFrame cuyas columnas se desean limpiar.
+=======
+
+    Args:
+    df (pd.DataFrame): El DataFrame cuyas columnas se desean limpiar.
+
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     pd.DataFrame: El DataFrame con los nombres de las columnas limpiados.
     """
@@ -280,9 +292,17 @@ def clean_column_names(df):
 def null_duplicates_review(df, nombre_df='DataFrame'):
     """
     Verifica y muestra el porcentaje de valores nulos y el número de duplicados en un DataFrame.
+<<<<<<< HEAD
     Args:
     df (pd.DataFrame): El DataFrame a analizar.
     nombre_df (str): Nombre del DataFrame para identificación en los resultados. Por defecto es 'DataFrame'.
+=======
+
+    Args:
+    df (pd.DataFrame): El DataFrame a analizar.
+    nombre_df (str): Nombre del DataFrame para identificación en los resultados. Por defecto es 'DataFrame'.
+
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     None: Imprime los resultados en consola.
     """
@@ -293,6 +313,7 @@ def null_duplicates_review(df, nombre_df='DataFrame'):
     # Verificar duplicados
     duplicates = df.duplicated().sum()
     print(f"Total duplicados en {nombre_df}: {duplicates}\n")
+<<<<<<< HEAD
 
 def capitalize_column(df, column_name):
     """
@@ -300,6 +321,17 @@ def capitalize_column(df, column_name):
     Args:
     df (pd.DataFrame): El DataFrame a analizar.
     column_name: Nombre de la columna 
+=======
+    
+def capitalize_column(df, column_name):
+    """
+    Convierte la primera letra de cada palabra en mayúscula y el resto en minúscula.
+
+    Args:
+    df (pd.DataFrame): El DataFrame a analizar.
+    column_name: Nombre de la columna 
+
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     None: Imprime los resultados en consola.
     """
@@ -309,16 +341,27 @@ def capitalize_column(df, column_name):
 def plot_outliers(df, column, title='Outliers Visualization'):
     """
     Visualiza valores atípicos para una columna numérica utilizando un scatterplot.
+<<<<<<< HEAD
+=======
+
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Parameters:
     df (DataFrame): El DataFrame que contiene los datos.
     column (str): El nombre de la columna numérica para analizar.
     title (str): El título del gráfico.
     """
     plt.figure(figsize=(12, 6))
+<<<<<<< HEAD
 
     # Scatterplot
     sns.scatterplot(x=df.index, y=df[column], color='blue', alpha=0.6)
 
+=======
+    
+    # Scatterplot
+    sns.scatterplot(x=df.index, y=df[column], color='blue', alpha=0.6)
+    
+>>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     plt.title(title)
     plt.xlabel('Index')
     plt.ylabel(column)
