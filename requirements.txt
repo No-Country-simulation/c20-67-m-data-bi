@@ -1,5 +1,6 @@
 beautifulsoup4==4.12.3
 matplotlib==3.7.5
+nltk==3.9.1
 numpy==1.24.4
 pandas==2.0.3
 pandastable==0.13.1
