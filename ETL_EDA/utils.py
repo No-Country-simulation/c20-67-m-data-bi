@@ -27,13 +27,13 @@ def convertir_salario_por_hora(salario):
     """Convierte un salario por hora a anual y obtiene los valores mínimos y máximos."""
     if pd.isna(salario):
         return 0, 0
-    
+
     salario = str(salario).strip()
-    
+
     # Eliminar texto que no es necesario
     salario_limpio = re.sub(r'Per Hour.*', '', salario).strip()
     partes = salario_limpio.split('-')
-    
+
     if len(partes) == 2:
         try:
             min_salario_hora = float(partes[0].replace('$', '').replace(',', ''))
@@ -47,7 +47,7 @@ def convertir_salario_por_hora(salario):
             return 0, 0
     else:
         return 0, 0
-    
+
     # Convertir a anual
     min_salario_anual = min_salario_hora * 2080
     max_salario_anual = max_salario_hora * 2080
@@ -58,16 +58,16 @@ def clear_salary(salario):
     """Limpia un valor de salario para obtener los números mínimos y máximos."""
     if pd.isna(salario):
         return 0, 0
-    
+
     salario = str(salario).strip()
-    
+
     # Eliminar texto entre paréntesis y caracteres no numéricos excepto guiones
     salario_limpio = re.sub(r'\(.*\)', '', salario)  # Elimina texto en paréntesis
     salario_limpio = re.sub(r'[^\dKk-]', '', salario_limpio)  # Elimina caracteres no numéricos excepto guiones
-    
+
     # Reemplazar el sufijo 'K' para manejar los valores en miles
     salario_limpio = salario_limpio.replace('K', '000').replace('k', '000')
-    
+
     # Dividir el string en dos usando el guion como separador
     partes = salario_limpio.split('-')
 
@@ -84,7 +84,7 @@ def clear_salary(salario):
             return 0, 0
     else:
         return 0, 0
-    
+
     return minimo, maximo
 
 def extraer_salarios(df, columna_salario):
@@ -94,7 +94,7 @@ def extraer_salarios(df, columna_salario):
             convertir_salario_por_hora(x) if 'Per Hour' in str(x) else clear_salary(x)
         )
     )
-    
+
     # Calcular el promedio del salario
     df['avg_salary'] = (df['min_salary'] + df['max_salary']) / 2
 
@@ -110,7 +110,7 @@ def split_location(location):
     except Exception as e:
         print(f"Error processing location {location}: {e}")
         return location, location
-    
+
 def title_simplifier(title):
     title = title.lower()
 
@@ -149,7 +149,7 @@ def title_simplifier(title):
     else:
         return title
 
-    
+
 def seniority(title):
     title = title.lower()
 
@@ -161,14 +161,12 @@ def seniority(title):
         return "semi-senior"
     else:
         return "unspecified"
-    
+
 
 def extract_key_info(text):
     """Extracts key information from a job description text.
-
     Args:
         text (str): The job description text.
-
     Returns:
         dict: A dictionary containing extracted skills, responsibilities, and requirements.
     """
@@ -184,7 +182,7 @@ def extract_key_info(text):
     # Load the spaCy model (ensure it's installed)
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(text)
-    
+
 
     # Define keywords for each section
     section_keywords = {
@@ -204,7 +202,6 @@ def extract_key_info(text):
             if any(keyword in sent.text.lower() for keyword in keywords):
                 sections[section].append(sent)
                 break
-
     # Clean up extracted sections and extract text
     for section in sections:
         sections[section] = [sent.text.strip().replace('\r\n', ' ').replace('\n', ' ') for sent in sections[section]]
@@ -213,11 +210,9 @@ def extract_key_info(text):
 
 def clean_skills(text, custom_keywords=None):
     """Extrae palabras clave de habilidades de un texto.
-
     Args:
         text (str): El texto a analizar.
         custom_keywords (list, optional): Lista de palabras clave personalizadas.
-
     Returns:
         set: Conjunto de palabras clave extraídas.
     """
@@ -228,7 +223,7 @@ def clean_skills(text, custom_keywords=None):
         text = ' '.join(text)  # Convertir lista en string
     elif not isinstance(text, str):
         return ''  # Devolver una cadena vacía si no es una cadena
-    
+
     nltk.download('stopwords')
     nltk.download('wordnet')
 
@@ -262,26 +257,14 @@ def clean_skills(text, custom_keywords=None):
             if phrase in keywords:
                 extracted_skills.add(phrase)
 
-<<<<<<< HEAD
     return extracted_skills
-=======
-    # Unir las palabras clave encontradas en un string limpio
-    return ', '.join(extracted_skills)
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
 
 def clean_column_names(df):
     """
     Limpia los nombres de las columnas del DataFrame, convirtiéndolos a minúsculas y
     reemplazando los espacios con guiones bajos para darles formato snake_case.
-<<<<<<< HEAD
     Args:
     df (pd.DataFrame): El DataFrame cuyas columnas se desean limpiar.
-=======
-
-    Args:
-    df (pd.DataFrame): El DataFrame cuyas columnas se desean limpiar.
-
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     pd.DataFrame: El DataFrame con los nombres de las columnas limpiados.
     """
@@ -292,17 +275,9 @@ def clean_column_names(df):
 def null_duplicates_review(df, nombre_df='DataFrame'):
     """
     Verifica y muestra el porcentaje de valores nulos y el número de duplicados en un DataFrame.
-<<<<<<< HEAD
     Args:
     df (pd.DataFrame): El DataFrame a analizar.
     nombre_df (str): Nombre del DataFrame para identificación en los resultados. Por defecto es 'DataFrame'.
-=======
-
-    Args:
-    df (pd.DataFrame): El DataFrame a analizar.
-    nombre_df (str): Nombre del DataFrame para identificación en los resultados. Por defecto es 'DataFrame'.
-
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     None: Imprime los resultados en consola.
     """
@@ -313,7 +288,6 @@ def null_duplicates_review(df, nombre_df='DataFrame'):
     # Verificar duplicados
     duplicates = df.duplicated().sum()
     print(f"Total duplicados en {nombre_df}: {duplicates}\n")
-<<<<<<< HEAD
 
 def capitalize_column(df, column_name):
     """
@@ -321,17 +295,6 @@ def capitalize_column(df, column_name):
     Args:
     df (pd.DataFrame): El DataFrame a analizar.
     column_name: Nombre de la columna 
-=======
-    
-def capitalize_column(df, column_name):
-    """
-    Convierte la primera letra de cada palabra en mayúscula y el resto en minúscula.
-
-    Args:
-    df (pd.DataFrame): El DataFrame a analizar.
-    column_name: Nombre de la columna 
-
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Returns:
     None: Imprime los resultados en consola.
     """
@@ -341,27 +304,16 @@ def capitalize_column(df, column_name):
 def plot_outliers(df, column, title='Outliers Visualization'):
     """
     Visualiza valores atípicos para una columna numérica utilizando un scatterplot.
-<<<<<<< HEAD
-=======
-
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     Parameters:
     df (DataFrame): El DataFrame que contiene los datos.
     column (str): El nombre de la columna numérica para analizar.
     title (str): El título del gráfico.
     """
     plt.figure(figsize=(12, 6))
-<<<<<<< HEAD
 
     # Scatterplot
     sns.scatterplot(x=df.index, y=df[column], color='blue', alpha=0.6)
 
-=======
-    
-    # Scatterplot
-    sns.scatterplot(x=df.index, y=df[column], color='blue', alpha=0.6)
-    
->>>>>>> a4b7504bf860f56266b20b21b9abdc48aa2c5d63
     plt.title(title)
     plt.xlabel('Index')
     plt.ylabel(column)
