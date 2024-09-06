@@ -32,7 +32,7 @@ def plot_liers(df,X, title='Whitout Outliers Visualization'):
     zscores = zscore(df5[col])
     threshold = 4
     outliers = df5[np.abs(zscores) > threshold]
-    print("Detected outliers en  using Z-scores:" ,col)
+    print("Detected outliers en:" ,col)
     #print(outliers)
     non_outliers = df5[col][np.abs(zscores) <= threshold]
     plot_liers(df5, X=non_outliers)
