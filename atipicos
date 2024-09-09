@@ -1,0 +1,45 @@
+Para trabajar los datos atípicos:
+
+import spacy
+from scipy.stats import zscore
+
+def plot_liers(df,X, title='Whitout Outliers Visualization'):
+    """
+    Visualiza valores atípicos para una columna numérica utilizando un scatterplot.
+
+    Parameters:
+    df (DataFrame): El DataFrame que contiene los datos.
+    column (str): El nombre de la columna numérica para analizar.
+    title (str): El título del gráfico.
+    """
+    plt.figure(figsize=(12, 6))
+    plt.plot(X)
+    # Scatterplot
+    sns.scatterplot(x=df.index, y=df[col], color='blue', alpha=0.6)
+    
+    plt.title(title)
+    plt.xlabel('Index')
+    plt.ylabel(col)
+    plt.grid(True)
+    plt.show()
+
+# En la columna numerica de cualquier df... por ejemplo df5
+
+#numeric_columns = ['housing_cost', 'food_cost', 'transportation_cost', 'healthcare_cost', 'other_necessities_cost', 'childcare_cost',	'taxes', 'total_cost',	'median_family_income']
+#for col in numeric_columns:
+   # plot_outliers(df5, col, title=f'Valores atípicos en {col}')
+    
+    zscores = zscore(df5[col])
+    threshold = 4
+    outliers = df5[np.abs(zscores) > threshold]
+    print("Detected outliers en:" ,col)
+    #print(outliers)
+    non_outliers = df5[col][np.abs(zscores) <= threshold]
+    plot_liers(df5, X=non_outliers)
+    print(outliers[col])
+    print(f'Data before removing outliers: {len(df5[col])}')
+    print(f'Data after removing outliers: {len(non_outliers)}')
+
+# el threshold puede ser cambiado para tomar más o menos outliers
+#en algunos casos es bueno imprimir los outliers por columna junto a otra columna, por ejemplo: print(outliers['state'], outliers[col])
+

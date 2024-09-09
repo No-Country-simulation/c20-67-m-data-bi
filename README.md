@@ -26,9 +26,15 @@
 
 | Fecha      | Versión | Autor                             | Organización | Descripción                                              |
 |------------|---------|-----------------------------------|--------------|----------------------------------------------------------|
-| 30/08/2024 | v.0.0   | Miembros del equipo de “Datahunters IT”  | Datahunters IT | Creación de la documentación, se designan roles y tareas.|
-|  | v.0.2 | Miembros del equipo de “Datahunters IT” | Datahunters IT |  |
-|  | v.0.2 | Miembros del equipo de “Datahunters IT” | Datahunters IT |  |
+| 18/08/2024 | v.0.0   | Miembros del equipo de “Datahunters IT”  | Datahunters IT | Creación de la documentación, se designan roles y tareas.|
+| 20/08/2024 | v.0.1 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Creacion de repositorios y entornos de creabajo. |
+| 26/08/2024 | v.0.2 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Diseño de logo y paletas de colore para el proyecto. |
+| 30/08/2024 | v.0.3 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Investigación y recopilacion de datos, deteccion de fuentes relevantes. |
+| 02/09/2024 | v.0.4 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Limpieza, transformacion y verificación de la calidad de los datos. |
+| 08/09/2024 | v.0.5 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Analisis exploratorio de datos, gestion de valores atipicos y selección de atributos clave. |
+| 12/09/2024 | v.0.6 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Seleccion de los insights a mostrar en el tablero de Power BI, storytelling y desarrollo final del trablero. |
+| 18/09/2024 | v.0.7 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Tunning de parametros para el modelo de Machine Learning y visualización de los datos. |
+
 
 ### Información del Proyecto
 
@@ -69,8 +75,9 @@ Esta sección detalla los criterios y estándares que deben cumplirse durante el
 4. Documentación técnica y funcional del proyecto.
 5. Estrategias de trabajo efectivas.
 6. Plan de mantenimiento y soporte.
-7. Presentación final a través de ***: *** a las *** hrs (Arg).
+7. Presentación final a través de demo day.
 
+   
 ### Fases de desarrollo
 El desarrollo del proyecto se divide en varias fases bien definidas para asegurar un progreso organizado y eficiente. Cada fase aborda diferentes aspectos del proyecto, desde la planificación inicial hasta el despliegue final, garantizando que todos los componentes se integren de manera cohesiva y funcional. A continuación, se detallan las principales etapas del desarrollo del proyecto.
 
@@ -114,7 +121,7 @@ Las pruebas y la validación son etapas críticas para garantizar que el sistema
 | Aprobación de avances (60% requerimientos cubiertos) | 09/09/2024 |
 | Aprobación de avances (90% requerimientos cubiertos) | 16/09/2024 |
 | Aprobación de avances (100% requerimientos cubiertos) | 23/09/2024 |
-| Finalización de la simulación (DemoDay) |  hr (ARG) |
+| Finalización de la simulación (DemoDay) |   |
 
 #### Talento humano
 
@@ -135,7 +142,7 @@ El desarrollo del proyecto se llevó a cabo utilizando una combinación de técn
 2. **Análisis exploratorio:** Realizar un análisis exhaustivo para identificar patrones y tendencias en los datos.
 3. **Desarrollo de modelos:** Crear y entrenar modelos predictivos y de segmentación.
 4. **Visualización de datos:** Crear visualizaciones interactivas que faciliten la comprensión de los resultados.
-5. **Desarrollo de la aplicación:** ????? I
+
 
 #### Tecnologías Utilizadas
 - Python: Lenguaje de programación principal para el análisis y procesamiento de datos.
@@ -158,9 +165,6 @@ Ejecución de pruebas para asegurar que el sistema cumple con los requisitos y n
 
 ### Cierre del proyecto
 Finalización de todas las actividades, grupos de proceso de gestión y formalización de la presentación del producto software. Realización de una reunión de cierre para revisar los logros y áreas de mejora, y documentar las lecciones aprendidas.
-
-#### Implementación y Despliegue
-Despliegue del sistema en un entorno de producción.
 
 ---
 
