@@ -1,134 +1,80 @@
 type,id
 Unspecified,1
-Aseguradoras y sociedades de inversión,2
-Banca y Servicios de crédito,3
-Desarrollo de software,4
-Fabricación de productos químicos,5
-Universidades y escuelas profesionales,6
-Bufetes de abogados,7
-Aeroespacial y defensa,8
-Tiendas de muebles y de artículos para el hogar,9
-Selección de personal y Subcontratación,10
-Videojuegos,11
-Hospitales y Centros de salud,12
-Consultorías empresariales,13
-Fabricación de productos de consumo,14
-Construcción,15
-Software empresarial y soluciones de red,16
-Organismos estatales y regionales,17
-Publicidad y Relaciones públicas,18
-Internet y Servicios web,19
-Soporte informático,20
-Compañías de seguros,21
-Electricidad y Servicios públicos,22
-Tiendas de accesorios personales y de belleza,23
-Fabricación de maquinaria,24
-Hospitales y servicios de atención médica,25
-Biotecnología e industria farmacéutica,26
-Venta al por mayor,27
-Belleza y Bienestar,28
-Organismos nacionales,29
-Consultoría en recursos humanos,30
-Otros tipos de tiendas minoristas,31
-Producción de alimentos y bebidas,32
-Desarrollo de equipos informáticos,33
-Tiendas de artículos deportivos,34
-Agencias de viajes,35
-Investigación y desarrollo,36
-Servicios de telecomunicaciones,37
-Renta de productos de consumo,38
-Procesamiento de transacciones financieras,39
-Lavandería y tintorería,40
-Deportes y actividades recreativas,41
-Gestión de activos e Inversiones,42
-Legal,43
-Fabricación de productos electrónicos,44
-Educación y Formación profesional,45
-Farmacias y tiendas de productos para la salud,46
-Producción cinematográfica,47
-"Proveedores de cable, Internet y teléfono",48
-Paquetería y Mensajería,49
-Servicios comunitarios,50
-Ocio y Cultura,51
-Manufactura de productos para el cuidado de la salud,52
-Restaurantes y Cafeterías,53
-Supermercados,54
-Juegos de apuestas,55
-Servicios jurídicos,56
-Aerospace & Defense,57
-Health Care Services & Hospitals,58
-Security Services,59
-Energy,60
-Advertising & Marketing,61
-Real Estate,62
-Banks & Credit Unions,63
-Consulting,64
-Internet,65
-Other Retail Stores,66
-Research & Development,67
-"Department, Clothing, & Shoe Stores",68
-Biotech & Pharmaceuticals,69
-Motion Picture Production & Distribution,70
-Enterprise Software & Network Solutions,71
-Insurance Carriers,72
-Insurance Agencies & Brokerages,73
-Logistics & Supply Chain,74
-Telecommunications Services,75
-It Services,76
-Computer Hardware & Software,77
--1,78
-Consumer Products Manufacturing,79
-Industrial Manufacturing,80
-Metals Brokers,81
-Financial Transaction Processing,82
-Sporting Goods Stores,83
-Staffing & Outsourcing,84
-Wholesale,85
-Mining,86
-Financial Analytics & Research,87
-Federal Agencies,88
-Education Training Services,89
-Transportation Equipment Manufacturing,90
-Farm Support Services,91
-Tv Broadcast & Cable Networks,92
-Architectural & Engineering Services,93
-Brokerage Services,94
-Travel Agencies,95
-Religious Organizations,96
-Colleges & Universities,97
-Investment Banking & Asset Management,98
-Lending,99
-Gambling,100
-Food & Beverage Manufacturing,101
-Gas Stations,102
-Transportation Management,103
-Video Games,104
-Trucking,105
-Social Assistance,106
-Auctions & Galleries,107
-K-12 Education,108
-Telecommunications Manufacturing,109
-Stock Exchanges,110
-Construction,111
-Accounting,112
-Health Care Products Manufacturing,113
-"Health, Beauty, & Fitness",114
-Consumer Product Rental,115
-Beauty & Personal Accessories Stores,116
-Others,117
-Technology,118
-Service,119
-Healthcare,120
-Insurance,121
-Finance,122
-Automotive,123
-Education,124
-Transportation,125
-Aerospace,126
-Media,127
-Government,128
-Manufacturing,129
-Telecommunications,130
-Retail,131
-Agriculture,132
-Travel,133
+Insurance,2
+Banks & Credit Services,3
+Software Development,4
+Chemical Product Manufacturing,5
+Education,6
+Legal,7
+Aerospace & Defense,8
+Furniture & Home Goods Stores,9
+Staffing & Outsourcing,10
+Video Games,11
+Hospitals & Health Care Centers,12
+Consulting,13
+Consumer Products Manufacturing,14
+Construction,15
+Enterprise Software & Network Solutions,16
+Federal Agencies,17
+Advertising & Public Relations,18
+Telecommunications,19
+IT Services,20
+Electricity & Public Services,21
+Beauty & Personal Accessories Stores,22
+Industrial Manufacturing,23
+Biotech & Pharmaceuticals,24
+Wholesale,25
+Healthcare,26
+National Agencies,27
+Human Resources Consulting,28
+Other Retail Stores,29
+Food & Beverage Manufacturing,30
+Computer Hardware & Software,31
+Sporting Goods Stores,32
+Travel,33
+Research & Development,34
+Consumer Product Rental,35
+Laundry & Dry Cleaning,36
+Sports & Recreational Activities,37
+Investment Banking & Asset Management,38
+Electronic Products Manufacturing,39
+Pharmacies & Health Product Stores,40
+Motion Picture Production & Distribution,41
+Package & Courier Services,42
+Community Services,43
+Entertainment & Culture,44
+Restaurants & Cafes,45
+Supermarkets,46
+Gambling,47
+Security Services,48
+Energy,49
+Advertising & Marketing,50
+Real Estate,51
+"Department, Clothing, & Shoe Stores",52
+Logistics & Supply Chain,53
+Metals Brokers,54
+Finance,55
+Mining,56
+Financial Analytics & Research,57
+Transportation,58
+Farm Support Services,59
+Tv Broadcast & Cable Networks,60
+Architectural & Engineering Services,61
+Brokerage Services,62
+Religious Organizations,63
+Lending,64
+Gas Stations,65
+Trucking,66
+Social Assistance,67
+Auctions & Galleries,68
+Stock Exchanges,69
+Accounting,70
+Others,71
+Technology,72
+Service,73
+Automotive,74
+Media,75
+Government,76
+Manufacturing,77
+Retail,78
+Agriculture,79
