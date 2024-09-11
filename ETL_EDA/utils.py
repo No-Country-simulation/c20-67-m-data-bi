@@ -183,3 +183,71 @@ def clean_skills(text):
 
     # Unir las palabras clave encontradas en un string limpio
     return ', '.join(extracted_skills)
+
+def clean_column_names(df):
+    """
+    Limpia los nombres de las columnas del DataFrame, convirtiéndolos a minúsculas y
+    reemplazando los espacios con guiones bajos para darles formato snake_case.
+
+    Args:
+    df (pd.DataFrame): El DataFrame cuyas columnas se desean limpiar.
+
+    Returns:
+    pd.DataFrame: El DataFrame con los nombres de las columnas limpiados.
+    """
+    # Estandarizar columnas
+    df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+    return df
+
+def null_duplicates_review(df, nombre_df='DataFrame'):
+    """
+    Verifica y muestra el porcentaje de valores nulos y el número de duplicados en un DataFrame.
+
+    Args:
+    df (pd.DataFrame): El DataFrame a analizar.
+    nombre_df (str): Nombre del DataFrame para identificación en los resultados. Por defecto es 'DataFrame'.
+
+    Returns:
+    None: Imprime los resultados en consola.
+    """
+    # Verificar valores nulos
+    nulls = round(df.isnull().sum() / df.shape[0] * 100, 2)
+    print(f"Valores ausentes en {nombre_df}:\n{nulls.to_frame(name='Valores ausentes (%)')}\n")
+
+    # Verificar duplicados
+    duplicates = df.duplicated().sum()
+    print(f"Total duplicados en {nombre_df}: {duplicates}\n")
+    
+def capitalize_column(df, column_name):
+    """
+    Convierte la primera letra de cada palabra en mayúscula y el resto en minúscula.
+
+    Args:
+    df (pd.DataFrame): El DataFrame a analizar.
+    column_name: Nombre de la columna 
+
+    Returns:
+    None: Imprime los resultados en consola.
+    """
+    df[column_name] = df[column_name].str.title()
+    return df
+
+def plot_outliers(df, column, title='Outliers Visualization'):
+    """
+    Visualiza valores atípicos para una columna numérica utilizando un scatterplot.
+
+    Parameters:
+    df (DataFrame): El DataFrame que contiene los datos.
+    column (str): El nombre de la columna numérica para analizar.
+    title (str): El título del gráfico.
+    """
+    plt.figure(figsize=(12, 6))
+    
+    # Scatterplot
+    sns.scatterplot(x=df.index, y=df[column], color='blue', alpha=0.6)
+    
+    plt.title(title)
+    plt.xlabel('Index')
+    plt.ylabel(column)
+    plt.grid(True)
+    plt.show()
