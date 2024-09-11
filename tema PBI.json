@@ -1,0 +1,96 @@
+{
+  "name": "Tema Profesional Claro",
+  "dataColors": [
+    "#45A6E7",
+    "#201545",
+    "#F7A24F",
+    "#E1E2E4",
+    "#EEEFF0"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#201545",
+  "tableAccent": "#F7A24F",
+  "textClasses": {
+    "callout": {
+      "color": "#201545"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": {
+          "background": {
+            "solid": {
+              "color": "#FFFFFF"
+            }
+          }
+        },
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#201545"
+              }
+            },
+            "fontSize": 14,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "labels": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#201545"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "background": {
+          "solid": {
+            "color": "#FFFFFF"
+          }
+        },
+        "border": {
+          "color": "#E1E2E4",
+          "weight": 1
+        }
+      },
+      "card": {
+        "*": {
+          "title": {
+            "fontColor": {
+              "solid": {
+                "color": "#201545"
+              }
+            },
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold"
+          },
+          "labels": {
+            "fontColor": {
+              "solid": {
+                "color": "#45A6E7"
+              }
+            }
+          },
+          "border": {
+            "color": "#E1E2E4"
+          }
+        }
+      },
+      "slicer": {
+        "*": {
+          "selection": {
+            "fontColor": {
+              "solid": {
+                "color": "#F7A24F"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
