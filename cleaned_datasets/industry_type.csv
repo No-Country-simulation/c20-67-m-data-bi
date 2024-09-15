@@ -1,0 +1,81 @@
+type,id
+Unspecified,1
+Insurance,2
+Banks & Credit Services,3
+Software Development,4
+Chemical Product Manufacturing,5
+Education,6
+Legal,7
+Aerospace & Defense,8
+Furniture & Home Goods Stores,9
+Staffing & Outsourcing,10
+Video Games,11
+Hospitals & Health Care Centers,12
+Consulting,13
+Consumer Products Manufacturing,14
+Construction,15
+Enterprise Software & Network Solutions,16
+Federal Agencies,17
+Advertising & Public Relations,18
+IT Services,19
+Electricity & Public Services,20
+Beauty & Personal Accessories Stores,21
+Industrial Manufacturing,22
+Biotech & Pharmaceuticals,23
+Wholesale,24
+Healthcare,25
+National Agencies,26
+Human Resources Consulting,27
+Other Retail Stores,28
+Food & Beverage Manufacturing,29
+Computer Hardware & Software,30
+Sporting Goods Stores,31
+Telecommunications,32
+Travel,33
+Research & Development,34
+Consumer Product Rental,35
+Laundry & Dry Cleaning,36
+Sports & Recreational Activities,37
+Investment Banking & Asset Management,38
+Electronic Products Manufacturing,39
+Pharmacies & Health Product Stores,40
+Motion Picture Production & Distribution,41
+Package & Courier Services,42
+Community Services,43
+Entertainment & Culture,44
+Restaurants & Cafes,45
+Supermarkets,46
+Gambling,47
+Security Services,48
+Energy,49
+Advertising & Marketing,50
+Real Estate,51
+"Department, Clothing, & Shoe Stores",52
+Logistics & Supply Chain,53
+Metals Brokers,54
+Finance,55
+Mining,56
+Financial Analytics & Research,57
+Transportation,58
+Farm Support Services,59
+Tv Broadcast & Cable Networks,60
+Architectural & Engineering Services,61
+Brokerage Services,62
+Religious Organizations,63
+Lending,64
+Gas Stations,65
+Trucking,66
+Social Assistance,67
+Auctions & Galleries,68
+Kunspecified2 Education,69
+Stock Exchanges,70
+Accounting,71
+Others,72
+Technology,73
+Service,74
+Automotive,75
+Media,76
+Government,77
+Manufacturing,78
+Retail,79
+Agriculture,80

@@ -7,3 +7,4 @@ credenciales.json
 chromedriver*
 .venv
 .env
+*.json
