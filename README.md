@@ -29,7 +29,7 @@
 | 20/08/2024 | v.0.1   | Equipo Datahunters IT             | Datahunters IT | Creación de repositorios y entornos de trabajo. |
 | 26/08/2024 | v.0.2   | Equipo Datahunters IT             | Datahunters IT | Diseño del logo y paleta de colores del proyecto. |
 | 30/08/2024 | v.0.3   | Equipo Datahunters IT             | Datahunters IT | Investigación y recopilación de datos, detección de fuentes relevantes. |
-| 02/09/2024 | v.0.4   | Equipo Datahunters IT             | Datahunters IT | Limpieza, transformación y verificación de la calidad de los datos. |
+| 02/09/2024 | v.0.4   | Equipo Datahunters IT             | Datahunters IT | Limpieza, transformación y carga (ETL) a base de datos MySQL. |
 | 08/09/2024 | v.0.5   | Equipo Datahunters IT             | Datahunters IT | Análisis exploratorio de datos, gestión de valores atípicos y selección de atributos clave. |
 | 12/09/2024 | v.0.6   | Equipo Datahunters IT             | Datahunters IT | Selección de los insights a mostrar en el tablero de Power BI, storytelling y desarrollo del tablero. |
 | 16/09/2024 | v.0.7   | Equipo Datahunters IT             | Datahunters IT | Ajuste de parámetros para el modelo de Machine Learning y visualización de los datos. |
@@ -83,6 +83,7 @@ Proporcionar a los profesionales y empresas de IT una plataforma que facilite la
    
 2. **Recopilación y Limpieza de Datos**:
    - Extracción de datos de fuentes laborales y limpieza para eliminar duplicados e inconsistencias.
+   - Creación de modelo ER en base de datos SQL.
    
 3. **Análisis Exploratorio de Datos**: 
    - Análisis de patrones y tendencias para identificar las habilidades más demandadas.
@@ -97,6 +98,7 @@ Proporcionar a los profesionales y empresas de IT una plataforma que facilite la
 - **Python**: Procesamiento de datos.
 - **Pandas, NumPy**: Manipulación de datos y análisis estadístico.
 - **Matplotlib, Seaborn**: Visualización de datos.
+- **MySQL**: Base de datos relacional.
 - **Power BI**: Tablero de visualización interactiva.
 - **Machine Learning**: Predicción de habilidades emergentes.
 
@@ -144,4 +146,18 @@ El cierre incluye:
 
 
 
-### Interpretacion del Modelo
+### Proximos pasos
+
+En la siguiente fase del proyecto, se recomienda:
+
+- Evaluar los Modelos Predictivos:
+
+  Los modelos de predicción implementados en esta primera etapa no alcanzaron la precisión esperada. Es necesario llevar a cabo un análisis exhaustivo de los resultados y revisar los supuestos iniciales.
+
+- Ampliar la Base de Datos:
+
+  Considerar la ampliación de la base de datos para mejorar las predicciones y aumentar la precisión de los modelos. Datos adicionales podrían mejorar significativamente la capacidad de los modelos para anticipar tendencias.
+
+- Reevaluar los Algoritmos de Machine Learning:
+
+  Revisar los algoritmos utilizados o probar enfoques alternativos para mejorar el desempeño y lograr resultados más precisos en las predicciones de habilidades emergentes.

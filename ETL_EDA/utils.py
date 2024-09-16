@@ -120,7 +120,7 @@ def title_simplifier(title):
         return "backend developer"
     elif "full-stack" in title:
         return "full-stack developer"
-    if "data scientist" in title or "data sciences" in title or "data science" in title:
+    if "data scientist" in title or "data sciences" in title or "data science" in title or "scientist" in title:
         if "senior manager" in title or "principal" in title:
             return "senior data scientist"
         else:
@@ -155,10 +155,10 @@ def seniority(title):
 
     if "senior" in title or "sr" in title or "lead" in title or "principal" in title or "iii" in title:
         return "senior"
-    elif "junior" in title or "jr" in title or "associate" in title or "i" in title:
-        return "junior"
     elif "ii" in title or "mid" in title or "mgr" in title:
         return "semi-senior"
+    elif "junior" in title or "jr" in title or "associate" in title or "i" in title:
+        return "junior"
     else:
         return "unspecified"
 
