@@ -21,158 +21,127 @@
 6. [Cierre del proyecto](#cierre-del-proyecto)
 
 ---
-
-### Historial de versiones
+### Historial de Versiones
 
 | Fecha      | Versión | Autor                             | Organización | Descripción                                              |
 |------------|---------|-----------------------------------|--------------|----------------------------------------------------------|
-| 18/08/2024 | v.0.0   | Miembros del equipo de “Datahunters IT”  | Datahunters IT | Creación de la documentación, se designan roles y tareas.|
-| 20/08/2024 | v.0.1 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Creacion de repositorios y entornos de creabajo. |
-| 26/08/2024 | v.0.2 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Diseño de logo y paletas de colore para el proyecto. |
-| 30/08/2024 | v.0.3 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Investigación y recopilacion de datos, deteccion de fuentes relevantes. |
-| 02/09/2024 | v.0.4 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Limpieza, transformacion y verificación de la calidad de los datos. |
-| 08/09/2024 | v.0.5 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Analisis exploratorio de datos, gestion de valores atipicos y selección de atributos clave. |
-| 12/09/2024 | v.0.6 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Seleccion de los insights a mostrar en el tablero de Power BI, storytelling y desarrollo final del trablero. |
-| 18/09/2024 | v.0.7 | Miembros del equipo de “Datahunters IT” | Datahunters IT | Tunning de parametros para el modelo de Machine Learning y visualización de los datos. |
+| 18/08/2024 | v.0.0   | Equipo Datahunters IT             | Datahunters IT | Creación de la documentación, asignación de roles. |
+| 20/08/2024 | v.0.1   | Equipo Datahunters IT             | Datahunters IT | Creación de repositorios y entornos de trabajo. |
+| 26/08/2024 | v.0.2   | Equipo Datahunters IT             | Datahunters IT | Diseño del logo y paleta de colores del proyecto. |
+| 30/08/2024 | v.0.3   | Equipo Datahunters IT             | Datahunters IT | Investigación y recopilación de datos, detección de fuentes relevantes. |
+| 02/09/2024 | v.0.4   | Equipo Datahunters IT             | Datahunters IT | Limpieza, transformación y verificación de la calidad de los datos. |
+| 08/09/2024 | v.0.5   | Equipo Datahunters IT             | Datahunters IT | Análisis exploratorio de datos, gestión de valores atípicos y selección de atributos clave. |
+| 12/09/2024 | v.0.6   | Equipo Datahunters IT             | Datahunters IT | Selección de los insights a mostrar en el tablero de Power BI, storytelling y desarrollo del tablero. |
+| 16/09/2024 | v.0.7   | Equipo Datahunters IT             | Datahunters IT | Ajuste de parámetros para el modelo de Machine Learning y visualización de los datos. |
+| 18/09/2024 | v.0.8   | Equipo Datahunters IT             | Datahunters IT | Desarrollo final del tablero en Power BI. |
 
+---
 
 ### Información del Proyecto
 
-| Item                  | Descripción                    |
-|-----------------------|--------------------------------|
-| **Organización / Equipo** | Datahunters IT                |
-| **Proyecto**          | Match IT - Analizando el Futuro de IT |
-| **Fecha de inicio**   | 21/08/2024                     |
-| **Fecha de cierre**   | 18/09/2024                      |
-| **Cliente**           | NoCountry                       |
-| **Líder de Proyecto** | Ezequiel Garcia |
-| **Proyect Manager**   | Daineth Dominguez |
+| Item                  | Descripción                                |
+|-----------------------|--------------------------------------------|
+| **Organización / Equipo** | Datahunters IT                           |
+| **Proyecto**          | Match IT - Analizando el Futuro de IT       |
+| **Fecha de Inicio**   | 21/08/2024                                 |
+| **Fecha de Cierre**   | 19/09/2024                                 |
+| **Cliente**           | NoCountry                                  |
+| **Líder de Proyecto** | Ezequiel Garcia                            |
+| **Project Manager**   | Daineth Dominguez                          |
 
 ---
 
-## Planificación del proyecto
+### Planificación del Proyecto
 
-### Descripción del proyecto
-Identificar las habilidades y competencias más demandadas en el mercado laboral de IT mediante el análisis de datos de múltiples fuentes de empleo. Posteriormente, se desarrollará un modelo predictivo que permita anticipar habilidades emergentes y tendencias futuras en el sector, proporcionando a los profesionales y empresas de IT información valiosa para la planificación de sus estrategias de capacitación y contratación.
+#### Descripción del Proyecto
+El proyecto "Match IT" tiene como objetivo analizar el mercado laboral de IT en Estados Unidos y Canadá. A través de un tablero interactivo en Power BI, los profesionales del sector podrán buscar empleos de IT según su ciudad de interés, posición de interés y presupuesto. En futuras fases, se incluirá la posibilidad de filtrar por habilidades (skills) requeridas.
 
+#### Objetivo General
+Proporcionar a los profesionales y empresas de IT una plataforma que facilite la búsqueda de oportunidades laborales, visualizando tendencias y predicciones basadas en datos reales.
 
-### Objetivo
-El proyecto se enfocará en el mercado laboral de IT, con énfasis en las regiones con mayor actividad en el sector tecnológico como lo son Estados Unidos y Canadá, y se limitará a datos de este año (2024) para garantizar la relevancia y actualidad de los resultados.
+#### Objetivos Específicos
+1. **Recopilación y Limpieza de Datos**: Recolectar datos de ofertas laborales de múltiples fuentes de empleo en Estados Unidos y Canadá para el año 2024.
+2. **Análisis de Competencias y Habilidades**: Identificar y categorizar las habilidades más demandadas en el sector, diferenciando entre hard y soft skills.
+3. **Desarrollo de un Modelo Predictivo**: Utilizar técnicas de machine learning para anticipar tendencias emergentes en habilidades y competencias.
+4. **Visualización Interactiva**: Crear un tablero en Power BI que permita a los profesionales de IT filtrar empleos según ubicación, puesto, presupuesto y, próximamente, habilidades.
 
-#### Objetivos específicos
-1. **Recopilación y Limpieza de Datos**: Recopilar y consolidar datos de diversas uentes de empleo relevantes en el sector IT dentro de Estados Unidos y Canadá para el año 2024.
-2. Realizar un proceso de limpieza de datos que garantice la eliminación de duplicados, datos incompletos o inconsistentes, asegurando la calidad y precisión de la información a analizar.
-3. **Análisis de Habilidades y Competencias**: Identificar y categorizar las habilidades y competencias más mencionadas en las ofertas de empleo de IT, diferenciando entre habilidades técnicas (hard skills) y habilidades interpersonales (soft skills) y realizar un análisis comparativo entre las regiones (EE.UU. y Canadá) para identificar variaciones regionales en la demanda de habilidades.
-4. **Desarrollo del Modelo Predictivo**: Diseñar y entrenar un modelo predictivo utilizando técnicas de machine learning para anticipar habilidades emergentes en el sector IT, basándose en patrones históricos y tendencias actuales. Validar el modelo predictivo con un conjunto de datos independiente para asegurar su precisión y confiabilidad.
-5. **Generación de Reportes y Visualizaciones**: Desarrollar reportes detallados y visualizaciones interactivas que presenten las habilidades y competencias más demandadas, así como las predicciones sobre tendencias futuras en el mercado laboral de IT y asegurar que los reportes sean accesibles y comprensibles tanto para profesionales de IT como para responsables de contratación y planificación en empresas del sector.
+#### Requerimientos del Proyecto
+1. Entrega en un repositorio GitHub.
+2. Documentación técnica y funcional completa.
+3. Cumplimiento de los hitos acordados.
+4. Tablero en Power BI accesible y fácil de usar.
 
+---
 
-### Requerimientos del proyecto
-Esta sección detalla los criterios y estándares que deben cumplirse durante el desarrollo del proyecto, los cuales incluyen:
-1. Proyecto entregado en un repositorio de GitHub.
-2. Planificación detallada de las fases de desarrollo.
-3. Cumplimiento de estándares de calidad.
-4. Documentación técnica y funcional del proyecto.
-5. Estrategias de trabajo efectivas.
-6. Plan de mantenimiento y soporte.
-7. Presentación final a través de demo day.
+### Desarrollo del Proyecto
 
+#### Fases del Desarrollo
+
+1. **Análisis y Diseño**: 
+   - Identificación de requisitos clave y asignación de roles.
+   - Definición del ciclo de vida del proyecto y creación de la estructura del repositorio.
    
-### Fases de desarrollo
-El desarrollo del proyecto se divide en varias fases bien definidas para asegurar un progreso organizado y eficiente. Cada fase aborda diferentes aspectos del proyecto, desde la planificación inicial hasta el despliegue final, garantizando que todos los componentes se integren de manera cohesiva y funcional. A continuación, se detallan las principales etapas del desarrollo del proyecto.
+2. **Recopilación y Limpieza de Datos**:
+   - Extracción de datos de fuentes laborales y limpieza para eliminar duplicados e inconsistencias.
+   
+3. **Análisis Exploratorio de Datos**: 
+   - Análisis de patrones y tendencias para identificar las habilidades más demandadas.
 
-#### Análisis y Diseño
+4. **Desarrollo del Tablero Power BI**: 
+   - Creación de visualizaciones interactivas que permitan a los usuarios filtrar por ciudad, posición y presupuesto.
 
-El análisis y diseño del proyecto constituyen la base sobre la cual se construye todo el desarrollo posterior. En esta fase, se identifican los requisitos clave, se asignan roles y responsabilidades a los miembros del equipo, y se define el ciclo de vida del desarrollo del proyecto. 
-
-1. **Análisis del proyecto y Brainstorming:** Reuniones para comprender en detalle los requisitos del proyecto y generar ideas sobre cómo abordarlos.
-2. **Asignación de roles y responsabilidades:** Distribuir las tareas entre los miembros del equipo según sus habilidades y fortalezas para asegurar una ejecución efectiva del proyecto.
-3. **Creación de repositorio y entornos de trabajo**
-5. **Diseño de logo y paletas de colores**
-6. **Creación de la documentación del proyecto:** Elaborar documentos detallados que describan el plan del proyecto, incluyendo objetivos, hitos y cronograma.
-
-#### Desarrollo
-
-El desarrollo del proyecto se lleva a cabo en iteraciones, para asegurar una entrega constante y la posibilidad de hacer ajustes rápidos.
-
-1. Investigación y recopilación de Datos: 
-2. Limpieza y Preparación de los Datos:
-3. Modelado de Datos:
-4. Resultados y Visualización:
-
-
-#### Implementación
-
-El desarrollo de los requerimientos se realizará utilizando Python, Pandas, NumPy, Matplotlib, Seaborn, diversas librerias de Machine Learning y la plataforma de visualizacion Power BI. Estas tecnologías permitirán la creación de una solución completa y eficiente para el análisis y visualización de datos.
-
-#### Pruebas y Validación
-Las pruebas y la validación son etapas críticas para garantizar que el sistema desarrollado cumple con los requisitos y funciona correctamente. Este proceso incluye pruebas unitarias, de integración y de aceptación, asegurando que cada componente del sistema se desempeñe de manera óptima tanto individualmente como en conjunto. 
-
-#### Cronograma e hitos principales
-
-| Hito                                    | Fecha               |
-|-----------------------------------------|---------------------|
-| Inicio        |    21/08/2024       |
-| Presentación de los miembros del equipo |    22/08/2024       |
-| Asignación de roles y responsabilidades |      26/08/2024     |
-| Análisis del proyecto y Brainstorming   |      28/08/2024   |
-| Creación de la documentación del proyecto |    30/08/2024   |
-| Aprobación de avances (30% requerimientos cubiertos) | 05/09/2024 |
-| Aprobación de avances (60% requerimientos cubiertos) | 09/09/2024 |
-| Aprobación de avances (90% requerimientos cubiertos) | 16/09/2024 |
-| Aprobación de avances (100% requerimientos cubiertos) | 23/09/2024 |
-| Finalización de la simulación (DemoDay) |   |
-
-#### Talento humano
-
-| Nombre                         | Roles                             | Tareas                         | 
-|--------------------------------|-----------------------------------|-------------------------------|
-| Daineth Dominguez  | Project Manager / Data Scientist |  |
-| Gabriela Lopez | Data Analist                  |                               |       
-| Samantha Estudillo | Data Analist                     |                               |        
-| Miguel Correa  | Data Analist  |                  |     
-| Karina Gonzalez        | Data Scientist                      |                                 
----
-
-### Desarrollo del proyecto
-
-El desarrollo del proyecto se llevó a cabo utilizando una combinación de técnicas avanzadas de análisis de datos y Machine Learning, implementando metodologías ágiles y asegurando una entrega eficiente y de alta calidad.
-
-1. **Preprocesamiento de datos:** Limpiar y transformar los datos para su análisis.
-2. **Análisis exploratorio:** Realizar un análisis exhaustivo para identificar patrones y tendencias en los datos.
-3. **Desarrollo de modelos:** Crear y entrenar modelos predictivos y de segmentación.
-4. **Visualización de datos:** Crear visualizaciones interactivas que faciliten la comprensión de los resultados.
-
+5. **Implementación del Modelo Predictivo**:
+   - Entrenamiento de modelos de machine learning para anticipar habilidades emergentes en el sector.
 
 #### Tecnologías Utilizadas
-- Python: Lenguaje de programación principal para el análisis y procesamiento de datos.
-- Pandas: Biblioteca para la manipulación y análisis de datos.
-- NumPy: Biblioteca para cálculos numéricos eficientes.
-- Matplotlib: Biblioteca para la creación de gráficos y visualizaciones.
-- Seaborn: Biblioteca para visualización de datos estadísticos.
+- **Python**: Procesamiento de datos.
+- **Pandas, NumPy**: Manipulación de datos y análisis estadístico.
+- **Matplotlib, Seaborn**: Visualización de datos.
+- **Power BI**: Tablero de visualización interactiva.
+- **Machine Learning**: Predicción de habilidades emergentes.
 
-### Seguimiento y control
+---
 
-Medir y controlar frecuentemente el avance del proyecto para identificar posibles variaciones y discrepancias en relación con el plan original y corregirlas si fuese el caso.
+### Seguimiento y Control
 
-#### Pruebas y Validación
-Ejecución de pruebas para asegurar que el sistema cumple con los requisitos y no tiene errores.
+Se realizará un seguimiento continuo del proyecto mediante la revisión de los avances y las pruebas de calidad en cada fase.
 
-1. **Pruebas unitarias:** Verificar que cada componente del sistema funciona correctamente de manera aislada.
-2. **Pruebas de integración:** Asegurar que los diferentes componentes del sistema funcionan correctamente en conjunto.
-3. **Pruebas de aceptación:** Validar que el sistema cumple con los requisitos del cliente y está listo para su uso.
+1. **Pruebas Unitarias**: Validación de los componentes individuales.
+2. **Pruebas de Integración**: Asegurar la correcta interacción entre componentes.
+3. **Pruebas de Aceptación**: Confirmar que el sistema cumple con los requisitos del cliente.
 
+---
 
-### Cierre del proyecto
-Finalización de todas las actividades, grupos de proceso de gestión y formalización de la presentación del producto software. Realización de una reunión de cierre para revisar los logros y áreas de mejora, y documentar las lecciones aprendidas.
+### Cierre del Proyecto
+
+El cierre incluye:
+- Revisión final de todos los entregables.
+- Presentación del tablero de Power BI a los interesados en el Demo Day.
+- Documentación de lecciones aprendidas y oportunidades de mejora.
 
 ---
 
 ### Instrucciones de Uso
-1. Clona el repositorio desde GitHub.
-2. Crea un entorno virtual y asegúrate de tener instaladas todas las dependencias listadas en el archivo `requirements.txt`.
-3. Instala las dependencias necesarias ejecutando `pip install -r requirements.txt` en tu entorno virtual para la parte de Python.
-4. Asegúrate de configurar correctamente las variables de entorno según las necesidades del proyecto.
+
+1. Clona el repositorio desde GitHub:
+   ```bash
+   git clone <url-del-repositorio>
+
+2. Crea un entorno virtual y activa el entorno:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Linux/Mac
+   venv\Scripts\activate      # En Windows
+ 
+3. Instala las dependencias necesarias:
+
+   ```bash
+   pip install -r requirements.txt
+
+
+4. Accede al tablero de Power BI para comenzar a explorar las oportunidades laborales filtradas por ciudad, posición y presupuesto.
+
 
 
 ### Interpretacion del Modelo
